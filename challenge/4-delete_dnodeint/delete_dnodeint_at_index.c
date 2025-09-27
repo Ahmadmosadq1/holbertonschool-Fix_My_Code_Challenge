@@ -1,6 +1,6 @@
 #include "lists.h"
 /* head prev prev prev */
-/* head prev next next */
+/* (*head)->prev->next = (*head)->next; */
 
 /**
  * delete_dnodeint_at_index - deletes the node at index of a dlistint_t list
